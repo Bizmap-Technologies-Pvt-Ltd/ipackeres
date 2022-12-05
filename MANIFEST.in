@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ipackers *.css
+recursive-include ipackers *.csv
+recursive-include ipackers *.html
+recursive-include ipackers *.ico
+recursive-include ipackers *.js
+recursive-include ipackers *.json
+recursive-include ipackers *.md
+recursive-include ipackers *.png
+recursive-include ipackers *.py
+recursive-include ipackers *.svg
+recursive-include ipackers *.txt
+recursive-exclude ipackers *.pyc
